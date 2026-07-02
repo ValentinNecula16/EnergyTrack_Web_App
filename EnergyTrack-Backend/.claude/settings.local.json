@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "PowerShell(Get-Command *)",
+      "PowerShell($env:JAVA_HOME = \"C:\\\\Users\\\\Valentin\\\\.jdks\\\\ms-17.0.17\"; $env:PATH = \"$env:JAVA_HOME\\\\bin;\" + $env:PATH; cd \"C:\\\\Users\\\\Valentin\\\\Desktop\\\\Licenta\\\\energytrack\\\\EnergyTrack-Backend\"; .\\\\mvnw.cmd compile 2>&1 | Select-Object -Last 30)"
+    ]
+  }
+}
